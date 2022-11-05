@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "hannesandskullz1192tofumod:blocks/bread_block_top",
+    "up": "hannesandskullz1192tofumod:blocks/bread_block_top",
+    "north": "hannesandskullz1192tofumod:blocks/bread_block_side",
+    "east": "hannesandskullz1192tofumod:blocks/bread_block_end",
+    "south": "hannesandskullz1192tofumod:blocks/bread_block_side",
+    "west": "hannesandskullz1192tofumod:blocks/bread_block_end",
+    "particle": "hannesandskullz1192tofumod:blocks/bread_block_top"
+  }
+}

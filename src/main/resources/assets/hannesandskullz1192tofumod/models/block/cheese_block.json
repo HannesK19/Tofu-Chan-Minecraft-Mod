@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "hannesandskullz1192tofumod:blocks/cheese_block"
+  }
+}
