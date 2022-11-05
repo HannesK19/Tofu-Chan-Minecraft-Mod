@@ -1,0 +1,15 @@
+modLoader="javafml" #mandatory
+loaderVersion="[43,)"
+license="MIT"
+[[mods]]
+modId="hannesandskullz1192tofumod"
+version="0.1"
+displayName="Tofu Chan Mod"
+logoFile="logo.png"
+credits="Thank you Skullz for creating the textures."
+authors="Hannes, Skullz"
+
+description='''
+This is a mod about Tofu Chan. If you don't know him here is his YouTube Channel:
+https://www.youtube.com/c/Tofupupper
+'''
