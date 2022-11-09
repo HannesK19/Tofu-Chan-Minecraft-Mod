@@ -4,6 +4,7 @@ import dev.hannes.tofumod.init.blockinit;
 import dev.hannes.tofumod.init.iteminit;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -20,10 +21,10 @@ public class hannesandskullz1192tofumod {
 
     }
 
-    public static final CreativeModeTab TOFUTAB = new CreativeModeTab(MODID) {
-        @Override
-        public @NotNull ItemStack makeIcon() {
-            return iteminit.CHEESE.get().getDefaultInstance();
+    public static final CreativeModeTab TOFUTAB = (new CreativeModeTab(MODID) {
+        public ItemStack makeIcon() {
+            return new ItemStack(blockinit.BREAD_BLOCK.get());
         }
-    };
+
+    });
 }
